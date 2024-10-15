@@ -394,13 +394,13 @@
                 <!-- Comment Form Area -->
                 <div class="comment-form">
                     <!-- Form -->
-                    <form id="comment-us" method="post">
+                    <form id="comment-us" method="post" action="javascript:void(0);">
                         <!-- Left Inputs -->
                         <div class="col-xs-12 animated" data-animation="fadeInLeft" data-animation-delay="300">
                             <!-- Name -->
-                            <input type="text" name="name" id="name" required="required" class="form" placeholder="Nome" />
+                            <input type="text" name="name" id="name" required class="form" placeholder="Nome" />
                             <!-- Email -->
-                            <input type="email" name="mail" id="mail" required="required" class="form" placeholder="Email" />
+                            <input type="email" name="mail" id="mail" required class="form" placeholder="Email" />
                         </div><!-- End Left Inputs -->
                         <!-- Right Inputs -->
                         <div class="col-xs-12 animated" data-animation="fadeInRight" data-animation-delay="400">
@@ -419,7 +419,7 @@
                     <!-- Your Mail Message -->
                     <div class="mail-message-area">
                         <!-- Message -->
-                        <div class="alert gray-bg mail-message not-visible-message">
+                        <div class="alert gray-bg mail-message not-visible-message" style="display:none;">
                             <strong>Obrigado!</strong> Seu comentário foi enviado.
                         </div>
                     </div>
@@ -428,7 +428,8 @@
         </div><!-- End Contact Section -->
 
         <!-- Incluir o arquivo scripts.js -->
-        <script src="scripts.js"></script>      
+        <script src="js/scripts.js"></script>
+      
 
         <div class="map">
             <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3618.727010735933!2d91.837871!3d24.907291700000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1404919738144"></iframe>
